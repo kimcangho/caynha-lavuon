@@ -1,0 +1,29 @@
+{
+    "samplePosts":[
+        {
+            "name":"Cang", 
+            "content": "Hello my homies!",
+            "image": null,
+            "timestamp": "Today's Date",
+            "postNumber": 0,
+            "topicNumber": "1"
+        },
+        {
+            "name":"Thu",
+            "content": "How about NO.",
+            "image": null,
+            "timestamp": "Today's Date",
+            "postNumber": 1,
+            "topicNumber": "1"
+        },
+        {
+            "name":"Ngan",
+            "content": "lol",
+            "image": null,
+            "timestamp": "Today's Date",
+            "postNumber": 2,
+            "topicNumber": "1"
+        }
+    ]
+}
+

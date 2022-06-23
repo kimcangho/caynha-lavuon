@@ -1,0 +1,102 @@
+* {
+  font-family: 'Advent Pro', sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 85%;
+  height: auto;
+  padding-top: 10%;
+}
+
+/* Viewport larger than small device (phone) */
+@media (min-width: 640px) {
+  .test-box {
+    color: #B4846C;
+  }
+}
+
+/* Viewport larger than medium device (larger phone, tablet) */
+@media (min-width:768px) {
+  .test-box {
+    color: pink;
+  }
+}
+
+/* Viewport larger than large device (desktop) */
+@media (min-width: 1080px) {
+  .test-box {
+    color: greenyellow;
+  }
+}
+
+/* Modals */
+.modal__header {
+  position: fixed;
+  background-color: #FFFDA2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* top: 0; */
+}
+
+.modal__content {
+  padding-top: 20%;
+  padding-bottom:20%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__footer {
+  position: fixed;
+  display: flex;
+  background-color: #FEE2C5;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  bottom: 0;
+  height: 10%;
+}
+
+/* Misc */
+.footer-box {
+  background-color: #BAFFB4;
+}
+
+.login__field {
+  margin: 2.5%;
+}
+
+/* Buttons */
+.input__button {
+  border-radius: 5px;
+}
+
+.access-button {
+  color: white;
+  background-color: #FF6363;
+}
+
+/* Posts */
+.post {
+  border: 2px solid black;
+  border-radius: 0 10px 10px 10px;
+  background-color:#BAFFB4;
+  margin: 20px;
+  padding: 10px;
+  width: 90%;
+}
